@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消えたくなる日、お待ちかね。</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>消えたくなる日、お待ちかね。</h1>
+        <p>日常から少し離れたいあなたへ。</p>
+    </header>
+    <main>
+        <section id="moments">
+            <h2>消えたい瞬間ベスト5</h2>
+            <ul>
+                <li>仕事のプレッシャーに押しつぶされそうな時</li>
+                <li>混んでいる電車の中</li>
+                <li>友達の集まりで話題に入れない時</li>
+                <li>ストレスフルな1日の終わり</li>
+                <li>日常に飽きた時</li>
+            </ul>
+        </section>
+        
+        <section id="guide">
+            <h2>消え方ガイド</h2>
+            <button id="disappearButton">さあ、消えてみる！</button>
+            <div id="disappearMessage" class="hidden">フ～、消えました～！🌫️</div>
+        </section>
+        
+        <section id="voices">
+            <h2>寄せられた声</h2>
+            <textarea id="userInput" placeholder="消えたい理由を書いてください..."></textarea>
+            <button id="submitVoice">投稿する</button>
+            <ul id="voiceList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>現実逃避も時には大切。でも、あなたの存在がこの世界には必要です。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
